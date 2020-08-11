@@ -47,6 +47,8 @@ if __name__ == '__main__':
     print("""
 Please use gunicorn
 
+edited after syncing files
+
 gunicorn -b 127.0.0.1:8080 -k flask_sockets.worker main:app
 
 """)
